@@ -1,0 +1,17 @@
+{
+    "require": {
+        "wikimedia/composer-merge-plugin": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": true
+        }
+    },
+    "extra": {
+        "merge-plugin": {
+            "require": [
+                "./public/bitrix/composer-bx.json"
+            ]
+        }
+    }
+}
