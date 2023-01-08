@@ -3,6 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
+/tools/php-cs-fixer/vendor
 .env
 .env.bak.vessel
 .env.backup
