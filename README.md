@@ -8,18 +8,18 @@ This docker is based on https://github.com/shipping-docker/vessel
 1. Clone this repo
 ```bash
 cd ~/
-git clone git@github.com:bayeer/vessel-bitrix-php74.git
+git clone git@github.com:bayeer/docker-vessel-bitrix-php74.git
 ```
 
 2. Copy and setup .env:
 ```bash
-cd vessel-bitrix-php74
+cd docker-vessel-bitrix-php74
 cp .env.example .env
 ```
 
 3. Start docker containers (or build them at first run):
 ```bash
-cd ~/vessel-bitrix-php74
+cd ~/docker-vessel-bitrix-php74
 ./vessel start
 ```
 
