@@ -1,0 +1,7 @@
+#!/usr/bin/php
+<?php
+
+$_SERVER["DOCUMENT_ROOT"] = realpath(__DIR__ . '/../public');
+chdir($_SERVER['DOCUMENT_ROOT'].'/bitrix');
+
+require_once($_SERVER["DOCUMENT_ROOT"].'/bitrix/modules/main/cli/bitrix.php');
